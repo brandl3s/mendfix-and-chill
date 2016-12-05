@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mendfix &amp; chill</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <!-- Enable fullscreen Mode -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Icon for home screen -->
+    <link rel="apple-touch-icon" href='http://nebula.wsimg.com/9406113217622a98ffef0f17304ccb50?AccessKeyId=30BA1370208A0E0AD999&disposition=0&alloworigin=1'>
+    <link rel="icon" sizes="296x296" href="http://nebula.wsimg.com/9406113217622a98ffef0f17304ccb50?AccessKeyId=30BA1370208A0E0AD999&disposition=0&alloworigin=1">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <!--  home screen-->
+    <section id="home">
+      
+      <a href="index.html"><img src="MF1.png"></a>
+      <h1>
+        I would like to fix...
+      </h1>
+      <select>
+        <option value="mendClothes">Clothes</option>
+        <option value="repairBikes">Bicycles</option>
+        <option value="repairElectronics">Electronics</option>
+        <option value="fixFurniture">Furniture</option>
+        <option value="mendOther">Other</option>
+      </select>
+
+      <button id="fix">Fix it!</button>
+
+      <!--Search Results List-->
+
+      <ul>
+      </ul>
+
+
+      <p>
+        Learn new skills and repair your broken things in London.
+      </p>
+
+      <p>
+        Select an option to get started!
+      </p>
+      <p id="pageLinks">
+        <a href="about" class="button">About</a>
+        <a href="https://thimbleprojects.org/brandl3s/67948/resources.html"><button >Resources</button></a>
+      </p>
+      <p class="text" id="finalLine">
+        Made in <a href="http://www.tfl.gov.uk">London</a> by <a href="http://www.brandynicoleeaster.com">brandy</a>.
+      </p>
+
+    </section>
+
+    <!--   details screen-->
+    <section id="details">
+      <a id="back">Back</a>
+      <div id="mendEvent">
+      </div>
+    </section>
+
+    <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+    <script src="filter.js"></script>
+    <script src="show.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
